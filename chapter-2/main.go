@@ -227,10 +227,6 @@ func sumContains[T number](slice []T, number T) bool {
 	return sumContains(slice[1:], number)
 }
 
-func mergeInversion[T constraints.Ordered](slice[]T) int {
-
-}
-
 func main() {
 	array := []int{5, 2, 4, 6, 1, 3}
 	log.Println(insertionSort(array))
